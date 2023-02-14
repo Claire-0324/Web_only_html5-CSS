@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto", "Helvetica Neue";
+}
+
+.head, .section1, .section2, .section3, .section4 {
+    padding: 10px 200px;
+}
+
+.header_link, .s1_content{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.head{
+    background-color: #1f2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header_links {
+    display: flex;
+}
+
+.header_link {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section1 {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.s1_head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+
+.s1_img {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.s2_head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 40px;
+}
+
+.s2_content {
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.s2_img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border: #3882F6;
+    border: 2px;
+}
+
+.s2_text {
+    width: 200px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.s3_text1{
+    padding: 80px 60px 10px 60px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.s3_text2 {
+    padding: 10px 130px 80px 130px;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: end;
+}
+
+.blue_box {
+    margin: 100px 0;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+    border-radius: 10px;
+}
+
+.s4_text1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.s4_text2 {
+    color: #F9FAF8;
+}
+
+.s4_sign_up {
+    border: #F9FAF8;
+    border: 2px solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px 200px;
+}
